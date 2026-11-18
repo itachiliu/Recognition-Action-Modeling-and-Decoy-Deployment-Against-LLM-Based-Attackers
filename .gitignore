@@ -9,3 +9,4 @@ __pycache__/
 _build/api_config*.json
 _build/*/main_v21/full_run.log
 _build/*/main_v21/full_run.err.log
+*known_hosts
