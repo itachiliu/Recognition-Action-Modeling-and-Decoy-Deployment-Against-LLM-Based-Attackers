@@ -1,0 +1,74 @@
+{
+  "protocol_version": "formal-v2.1",
+  "planned_tasks": 9216,
+  "completed_tasks": 9216,
+  "unique_task_ids": 9216,
+  "duplicate_task_ids": 0,
+  "missing_expected_task_ids": 0,
+  "unexpected_task_ids": 0,
+  "config_sha256_expected": "0e0a0bf97b18ed523a8e7fde7815f507c8f610ecb4a36977f2a90ea92ca1e2a0",
+  "wrong_config_hash": 0,
+  "per_model": {
+    "Deepseek-Flash": {
+      "planned": 3072,
+      "completed": 3072,
+      "complete_text": 3069,
+      "valid": 3069,
+      "complete_given_completed": 0.9990234375,
+      "valid_given_complete": 1.0,
+      "finish_reasons": {
+        "stop": 3069,
+        "None": 3
+      },
+      "errors": {
+        "transport_failure": 3
+      },
+      "reported_response_model_ids": {
+        "deepseek-v4.1-flash-1017": 3069,
+        "None": 3
+      }
+    },
+    "Deepseek-R1-32b": {
+      "planned": 3072,
+      "completed": 3072,
+      "complete_text": 3052,
+      "valid": 3047,
+      "complete_given_completed": 0.9934895833333334,
+      "valid_given_complete": 0.9983617300131061,
+      "finish_reasons": {
+        "stop": 3052,
+        "None": 14,
+        "length": 6
+      },
+      "errors": {
+        "invalid_reasoning": 5,
+        "transport_failure": 14,
+        "incomplete_or_filtered_response": 6
+      },
+      "reported_response_model_ids": {
+        "deepseek-r1:32b-qwen-distill-q8_0": 3058,
+        "None": 14
+      }
+    },
+    "GLM-5": {
+      "planned": 3072,
+      "completed": 3072,
+      "complete_text": 3069,
+      "valid": 3069,
+      "complete_given_completed": 0.9990234375,
+      "valid_given_complete": 1.0,
+      "finish_reasons": {
+        "stop": 3069,
+        "None": 3
+      },
+      "errors": {
+        "transport_failure": 3
+      },
+      "reported_response_model_ids": {
+        "glm-5": 3069,
+        "None": 3
+      }
+    }
+  },
+  "formal_collection_complete": true
+}

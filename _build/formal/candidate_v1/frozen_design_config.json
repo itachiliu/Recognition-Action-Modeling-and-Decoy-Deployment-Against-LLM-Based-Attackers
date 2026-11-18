@@ -1,0 +1,15 @@
+{
+  "base_seed": 20261114101,
+  "design_version": "formal-candidate-v1",
+  "gate": "Technical pilot, human measurement review, and formal design precision study pending",
+  "layouts": 2,
+  "prompt_protocol": "80-character visible explanation request; 240-character parser cap",
+  "repeats_per_layout": 4,
+  "scene_count": 120,
+  "split": {
+    "test": 24,
+    "train": 72,
+    "validation": 24
+  },
+  "status": "OFFLINE_CANDIDATE_NOT_AUTHORIZED_FOR_FORMAL_COLLECTION"
+}

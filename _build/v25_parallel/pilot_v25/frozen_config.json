@@ -1,0 +1,54 @@
+{
+  "api_sampling_seed": null,
+  "base_seed": 2026111401,
+  "business_hosts": 6,
+  "decoys": 2,
+  "disable_thinking_request_models": [
+    "Deepseek-Flash",
+    "Deepseek-R1-32b"
+  ],
+  "endpoint": "https://api.educg.net/v1/chat/completions",
+  "instances_per_cell": 3,
+  "layouts": 2,
+  "max_tokens_by_model": {
+    "Deepseek-Flash": 1024,
+    "Deepseek-R1-32b": 2048,
+    "GLM-5": 2048,
+    "GLM-5.3": 16384,
+    "Kimi-K2.6": 2048
+  },
+  "max_workers": 3,
+  "minimum_dispatch_interval_seconds": 0.3,
+  "models": [
+    "Deepseek-Flash",
+    "Deepseek-R1-32b",
+    "GLM-5",
+    "GLM-5.3",
+    "Kimi-K2.6"
+  ],
+  "note": "Five-model candidate after separate GLM-5.3 length probe passed 4/4. GLM-5.3 retains provider-required thinking with cap16384 and no effort override. Models/modes/token caps will be reported together. Still a separate technical pilot; old versions not pooled.",
+  "protocol_version": "pilot-v2.4",
+  "reasoning_max_characters": 240,
+  "repeats_per_layout": 4,
+  "request_overrides": {
+    "GLM-5": {
+      "thinking": {
+        "type": "disabled"
+      }
+    }
+  },
+  "request_timeout_seconds": 360,
+  "requested_reasoning_characters": 80,
+  "retry_http_statuses": [
+    408,
+    429,
+    500,
+    502,
+    503,
+    504
+  ],
+  "scheduling": "fixed shuffled queues per model; round-robin models",
+  "temperature": 1.0,
+  "top_p": 0.95,
+  "transport_retries": 2
+}

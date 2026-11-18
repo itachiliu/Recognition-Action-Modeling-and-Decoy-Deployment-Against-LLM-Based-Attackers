@@ -1,0 +1,57 @@
+{
+  "api_sampling_seed": null,
+  "base_seed": 2026111701,
+  "disable_thinking_request_models": [
+    "Deepseek-Flash",
+    "Deepseek-R1-32b"
+  ],
+  "endpoint": "https://api.educg.net/v1/chat/completions",
+  "excluded_models": {
+    "GLM-5.3": "complete_text_given_http200=0.916666 < 0.95",
+    "Kimi-K2.6": "valid_given_complete=0.791667 < 0.95"
+  },
+  "layouts": 2,
+  "max_tokens_by_model": {
+    "Deepseek-Flash": 1024,
+    "Deepseek-R1-32b": 2048,
+    "GLM-5": 2048
+  },
+  "max_workers": 3,
+  "minimum_dispatch_interval_seconds": 0.3,
+  "model_scope_basis": "pilot-v2.4 technical completeness and normalized parsing gates",
+  "models": [
+    "Deepseek-Flash",
+    "Deepseek-R1-32b",
+    "GLM-5"
+  ],
+  "protocol_version": "formal-v2.1",
+  "reasoning_max_characters": 240,
+  "repeats_per_layout": 4,
+  "request_overrides": {
+    "GLM-5": {
+      "thinking": {
+        "type": "disabled"
+      }
+    }
+  },
+  "request_timeout_seconds": 360,
+  "requested_reasoning_characters": 80,
+  "retry_http_statuses": [
+    408,
+    429,
+    500,
+    502,
+    503,
+    504
+  ],
+  "scene_count": 384,
+  "scheduling": "fixed shuffled queue; round-robin hash ordering across models",
+  "split": {
+    "test": 48,
+    "train": 288,
+    "validation": 48
+  },
+  "temperature": 1.0,
+  "top_p": 0.95,
+  "transport_retries": 2
+}

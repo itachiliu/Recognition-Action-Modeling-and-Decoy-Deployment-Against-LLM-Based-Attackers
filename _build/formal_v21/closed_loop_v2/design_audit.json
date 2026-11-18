@@ -1,0 +1,41 @@
+{
+  "duplicate_task_ids": 0,
+  "formal_ready": true,
+  "models": [
+    "Deepseek-Flash",
+    "Deepseek-R1-32b",
+    "GLM-5"
+  ],
+  "plan_comparison": {
+    "Deepseek-Flash": {
+      "mean_predicted_utility_difference_rag_minus_suqr": 0.373431214387275,
+      "rag_suqr_plan_difference_count": 20,
+      "rag_suqr_plan_difference_rate": 1.0
+    },
+    "Deepseek-R1-32b": {
+      "mean_predicted_utility_difference_rag_minus_suqr": -4.011582177554374e-11,
+      "rag_suqr_plan_difference_count": 0,
+      "rag_suqr_plan_difference_rate": 0.0
+    },
+    "GLM-5": {
+      "mean_predicted_utility_difference_rag_minus_suqr": 0.12964181218492038,
+      "rag_suqr_plan_difference_count": 20,
+      "rag_suqr_plan_difference_rate": 1.0
+    }
+  },
+  "plans": 480,
+  "prompt_repetition_note": "Repeated prompt hashes arise from the frozen eight calls per plan; task IDs remain unique.",
+  "scenes": 20,
+  "strategies": [
+    "random",
+    "all_high",
+    "max_cue",
+    "rational",
+    "QR",
+    "SUQR",
+    "fixed_rho",
+    "RAG_QR"
+  ],
+  "tasks": 3840,
+  "unique_prompt_hashes": 510
+}

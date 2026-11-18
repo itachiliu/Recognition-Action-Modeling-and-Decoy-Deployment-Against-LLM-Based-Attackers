@@ -1,0 +1,77 @@
+{
+  "api_calls_performed": 0,
+  "business_host_counts": {
+    "6": 60,
+    "8": 60
+  },
+  "calls_per_model_if_approved": 960,
+  "cue_support": {
+    "business": {
+      "admin_share": 120,
+      "backup": 180,
+      "credential": 180,
+      "hostname": 120,
+      "none": 240
+    },
+    "decoy": {
+      "admin_share": 48,
+      "backup": 48,
+      "credential": 48,
+      "hostname": 48,
+      "none": 48
+    }
+  },
+  "decoy_cell_max": 6,
+  "decoy_cell_min": 5,
+  "decoy_count_distribution": {
+    "1": 40,
+    "2": 40,
+    "3": 40
+  },
+  "decoy_instances": 240,
+  "formal_ready": false,
+  "not_established": [
+    "CI precision and coverage",
+    "Human measurement validity",
+    "Real LLM results"
+  ],
+  "presentations": 240,
+  "rank_by_split": {
+    "test": {
+      "choice_condition_number": 2.321474411621891,
+      "choice_rank": 10,
+      "recognition_rank": 5
+    },
+    "train": {
+      "choice_condition_number": 2.3363109606579635,
+      "choice_rank": 10,
+      "recognition_rank": 5
+    },
+    "validation": {
+      "choice_condition_number": 2.5323187575998696,
+      "choice_rank": 10,
+      "recognition_rank": 5
+    }
+  },
+  "role_template_counts": {
+    "Mixed": 30,
+    "Web-DB": 30,
+    "Web-DC": 30,
+    "Web-File": 30
+  },
+  "scenes": 120,
+  "sha256": {
+    "dataset_v1.jsonl": "d965f4cd6e2a86f5ec61f090f7d66d87a8879138fa575b3576c0db1384c33cbe",
+    "design_matrix.csv": "2920b8a963b29da31d18e5a924ed2b8bad8df220fee2db8c668e41615e68d55b",
+    "design_snapshot.py": "e83150715a6a992d7e15855ac00fdfb32e35127956bc454b6079772e6060c0af",
+    "frozen_design_config.json": "e35d389ff87a2dbdab59fe8b530facf255d35b9f4d7e7ac63cd6914fd3c99743",
+    "generator_v2_snapshot.py": "799a2a0949d1a79f63f039bb60e3bfda086632632f749f8fb0fd4e3623131207",
+    "presentations.jsonl": "6b4ddd378bc7873fb4b40b60e67c0b1cf92574e2fe70a213ca7f586271bcdb9c"
+  },
+  "split_counts": {
+    "test": 24,
+    "train": 72,
+    "validation": 24
+  },
+  "status": "PASS_OFFLINE_STRUCTURE_ONLY"
+}

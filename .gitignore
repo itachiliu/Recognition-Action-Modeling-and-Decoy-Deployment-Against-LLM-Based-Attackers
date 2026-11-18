@@ -1,0 +1,11 @@
+*.docx
+*.pdf
+*.png
+*.svg
+*.pyc
+__pycache__/
+*full_run.log
+*full_run.err.log
+_build/api_config*.json
+_build/*/main_v21/full_run.log
+_build/*/main_v21/full_run.err.log

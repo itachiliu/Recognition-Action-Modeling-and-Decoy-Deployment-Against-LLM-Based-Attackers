@@ -1,0 +1,730 @@
+{
+  "completed_tasks": 3840,
+  "duplicate_task_ids": 0,
+  "paired_scene_bootstrap_vs_SUQR": {
+    "Deepseek-Flash": {
+      "QR": {
+        "hit_rate": {
+          "ci_95": [
+            0.08125,
+            0.275
+          ],
+          "mean_difference": 0.18125,
+          "scenes": 20
+        },
+        "mean_loss": {
+          "ci_95": [
+            -0.16624999999999998,
+            -0.03875
+          ],
+          "mean_difference": -0.10124999999999999,
+          "scenes": 20
+        },
+        "mean_utility": {
+          "ci_95": [
+            0.3075,
+            0.9675
+          ],
+          "mean_difference": 0.6450000000000001,
+          "scenes": 20
+        }
+      },
+      "RAG_QR": {
+        "hit_rate": {
+          "ci_95": [
+            -0.01875,
+            0.15625
+          ],
+          "mean_difference": 0.06875,
+          "scenes": 20
+        },
+        "mean_loss": {
+          "ci_95": [
+            -0.12628125,
+            0.016249999999999997
+          ],
+          "mean_difference": -0.05625000000000001,
+          "scenes": 20
+        },
+        "mean_utility": {
+          "ci_95": [
+            -0.05499999999999998,
+            0.5774999999999999
+          ],
+          "mean_difference": 0.2625,
+          "scenes": 20
+        }
+      },
+      "all_high": {
+        "hit_rate": {
+          "ci_95": [
+            0.0875,
+            0.31875
+          ],
+          "mean_difference": 0.2,
+          "scenes": 20
+        },
+        "mean_loss": {
+          "ci_95": [
+            -0.1425,
+            0.0024999999999999857
+          ],
+          "mean_difference": -0.0675,
+          "scenes": 20
+        },
+        "mean_utility": {
+          "ci_95": [
+            0.28250000000000003,
+            1.06
+          ],
+          "mean_difference": 0.6675000000000001,
+          "scenes": 20
+        }
+      },
+      "fixed_rho": {
+        "hit_rate": {
+          "ci_95": [
+            0.16875,
+            0.325
+          ],
+          "mean_difference": 0.25,
+          "scenes": 20
+        },
+        "mean_loss": {
+          "ci_95": [
+            -0.20375000000000004,
+            -0.1025
+          ],
+          "mean_difference": -0.155,
+          "scenes": 20
+        },
+        "mean_utility": {
+          "ci_95": [
+            0.6499374999999998,
+            1.1549999999999998
+          ],
+          "mean_difference": 0.9049999999999999,
+          "scenes": 20
+        }
+      },
+      "max_cue": {
+        "hit_rate": {
+          "ci_95": [
+            -0.00803571428571428,
+            0.186629464285714
+          ],
+          "mean_difference": 0.09196428571428572,
+          "scenes": 20
+        },
+        "mean_loss": {
+          "ci_95": [
+            -0.0900044642857143,
+            0.0875
+          ],
+          "mean_difference": 0.0016071428571428515,
+          "scenes": 20
+        },
+        "mean_utility": {
+          "ci_95": [
+            -0.0857142857142857,
+            0.6225267857142852
+          ],
+          "mean_difference": 0.2742857142857143,
+          "scenes": 20
+        }
+      },
+      "random": {
+        "hit_rate": {
+          "ci_95": [
+            -0.04375,
+            0.16875
+          ],
+          "mean_difference": 0.0625,
+          "scenes": 20
+        },
+        "mean_loss": {
+          "ci_95": [
+            -0.10375000000000001,
+            0.04750000000000001
+          ],
+          "mean_difference": -0.03000000000000001,
+          "scenes": 20
+        },
+        "mean_utility": {
+          "ci_95": [
+            -0.16999999999999996,
+            0.6
+          ],
+          "mean_difference": 0.21749999999999997,
+          "scenes": 20
+        }
+      },
+      "rational": {
+        "hit_rate": {
+          "ci_95": [
+            0.11875,
+            0.39375
+          ],
+          "mean_difference": 0.2625,
+          "scenes": 20
+        },
+        "mean_loss": {
+          "ci_95": [
+            -0.25503125,
+            -0.06500000000000002
+          ],
+          "mean_difference": -0.16,
+          "scenes": 20
+        },
+        "mean_utility": {
+          "ci_95": [
+            0.45999999999999996,
+            1.3924999999999998
+          ],
+          "mean_difference": 0.9475,
+          "scenes": 20
+        }
+      }
+    },
+    "Deepseek-R1-32b": {
+      "QR": {
+        "hit_rate": {
+          "ci_95": [
+            0.029464285714285714,
+            0.18928571428571428
+          ],
+          "mean_difference": 0.10803571428571428,
+          "scenes": 20
+        },
+        "mean_loss": {
+          "ci_95": [
+            -0.12321428571428569,
+            -0.012312500000000127
+          ],
+          "mean_difference": -0.07125000000000001,
+          "scenes": 20
+        },
+        "mean_utility": {
+          "ci_95": [
+            0.10995535714285712,
+            0.6832142857142858
+          ],
+          "mean_difference": 0.39535714285714285,
+          "scenes": 20
+        }
+      },
+      "RAG_QR": {
+        "hit_rate": {
+          "ci_95": [
+            -0.06964285714285715,
+            0.03662946428571396
+          ],
+          "mean_difference": -0.016071428571428573,
+          "scenes": 20
+        },
+        "mean_loss": {
+          "ci_95": [
+            -0.06253125000000001,
+            0.04503124999999956
+          ],
+          "mean_difference": -0.01,
+          "scenes": 20
+        },
+        "mean_utility": {
+          "ci_95": [
+            -0.24,
+            0.1535892857142855
+          ],
+          "mean_difference": -0.038214285714285715,
+          "scenes": 20
+        }
+      },
+      "all_high": {
+        "hit_rate": {
+          "ci_95": [
+            -0.575,
+            -0.34375
+          ],
+          "mean_difference": -0.4625,
+          "scenes": 20
+        },
+        "mean_loss": {
+          "ci_95": [
+            0.15375000000000003,
+            0.365
+          ],
+          "mean_difference": 0.2625,
+          "scenes": 20
+        },
+        "mean_utility": {
+          "ci_95": [
+            -2.0875624999999998,
+            -1.2225000000000001
+          ],
+          "mean_difference": -1.65,
+          "scenes": 20
+        }
+      },
+      "fixed_rho": {
+        "hit_rate": {
+          "ci_95": [
+            -0.06071428571428572,
+            0.125
+          ],
+          "mean_difference": 0.033035714285714286,
+          "scenes": 20
+        },
+        "mean_loss": {
+          "ci_95": [
+            -0.08874999999999998,
+            0.053750000000000006
+          ],
+          "mean_difference": -0.015535714285714286,
+          "scenes": 20
+        },
+        "mean_utility": {
+          "ci_95": [
+            -0.22321428571428564,
+            0.4574999999999999
+          ],
+          "mean_difference": 0.11464285714285713,
+          "scenes": 20
+        }
+      },
+      "max_cue": {
+        "hit_rate": {
+          "ci_95": [
+            -0.225,
+            -0.004464285714285715
+          ],
+          "mean_difference": -0.11071428571428572,
+          "scenes": 20
+        },
+        "mean_loss": {
+          "ci_95": [
+            -0.01874999999999999,
+            0.1625
+          ],
+          "mean_difference": 0.0675,
+          "scenes": 20
+        },
+        "mean_utility": {
+          "ci_95": [
+            -0.8221964285714286,
+            -0.0070892857142864155
+          ],
+          "mean_difference": -0.3996428571428571,
+          "scenes": 20
+        }
+      },
+      "random": {
+        "hit_rate": {
+          "ci_95": [
+            -0.1,
+            0.15625
+          ],
+          "mean_difference": 0.025,
+          "scenes": 20
+        },
+        "mean_loss": {
+          "ci_95": [
+            -0.0975,
+            0.07999999999999999
+          ],
+          "mean_difference": -0.007500000000000004,
+          "scenes": 20
+        },
+        "mean_utility": {
+          "ci_95": [
+            -0.385,
+            0.5450624999999992
+          ],
+          "mean_difference": 0.08249999999999998,
+          "scenes": 20
+        }
+      },
+      "rational": {
+        "hit_rate": {
+          "ci_95": [
+            -0.06433035714285712,
+            0.1
+          ],
+          "mean_difference": 0.01696428571428572,
+          "scenes": 20
+        },
+        "mean_loss": {
+          "ci_95": [
+            -0.11339285714285714,
+            0.01875000000000001
+          ],
+          "mean_difference": -0.04589285714285714,
+          "scenes": 20
+        },
+        "mean_utility": {
+          "ci_95": [
+            -0.2174999999999999,
+            0.4050089285714285
+          ],
+          "mean_difference": 0.09678571428571434,
+          "scenes": 20
+        }
+      }
+    },
+    "GLM-5": {
+      "QR": {
+        "hit_rate": {
+          "ci_95": [
+            -0.175,
+            0.125
+          ],
+          "mean_difference": -0.01875,
+          "scenes": 20
+        },
+        "mean_loss": {
+          "ci_95": [
+            -0.0625,
+            0.15625000000000006
+          ],
+          "mean_difference": 0.03874999999999999,
+          "scenes": 20
+        },
+        "mean_utility": {
+          "ci_95": [
+            -0.64,
+            0.41000000000000014
+          ],
+          "mean_difference": -0.09499999999999997,
+          "scenes": 20
+        }
+      },
+      "RAG_QR": {
+        "hit_rate": {
+          "ci_95": [
+            -0.1625,
+            0.0875
+          ],
+          "mean_difference": -0.04375,
+          "scenes": 20
+        },
+        "mean_loss": {
+          "ci_95": [
+            -0.09125,
+            0.13878124999999955
+          ],
+          "mean_difference": 0.03125,
+          "scenes": 20
+        },
+        "mean_utility": {
+          "ci_95": [
+            -0.6199999999999999,
+            0.3375
+          ],
+          "mean_difference": -0.1625,
+          "scenes": 20
+        }
+      },
+      "all_high": {
+        "hit_rate": {
+          "ci_95": [
+            -0.36875,
+            -0.03125
+          ],
+          "mean_difference": -0.2,
+          "scenes": 20
+        },
+        "mean_loss": {
+          "ci_95": [
+            0.0012500000000000065,
+            0.24625000000000002
+          ],
+          "mean_difference": 0.1275,
+          "scenes": 20
+        },
+        "mean_utility": {
+          "ci_95": [
+            -1.335,
+            -0.12500000000000003
+          ],
+          "mean_difference": -0.7275,
+          "scenes": 20
+        }
+      },
+      "fixed_rho": {
+        "hit_rate": {
+          "ci_95": [
+            -0.13125,
+            0.05
+          ],
+          "mean_difference": -0.04375,
+          "scenes": 20
+        },
+        "mean_loss": {
+          "ci_95": [
+            -0.058750000000000004,
+            0.11499999999999999
+          ],
+          "mean_difference": 0.03125000000000001,
+          "scenes": 20
+        },
+        "mean_utility": {
+          "ci_95": [
+            -0.5,
+            0.2050624999999991
+          ],
+          "mean_difference": -0.16249999999999998,
+          "scenes": 20
+        }
+      },
+      "max_cue": {
+        "hit_rate": {
+          "ci_95": [
+            -0.3125,
+            -0.0375
+          ],
+          "mean_difference": -0.175,
+          "scenes": 20
+        },
+        "mean_loss": {
+          "ci_95": [
+            0.01499999999999999,
+            0.255
+          ],
+          "mean_difference": 0.13999999999999999,
+          "scenes": 20
+        },
+        "mean_utility": {
+          "ci_95": [
+            -1.1800000000000002,
+            -0.14743750000000092
+          ],
+          "mean_difference": -0.665,
+          "scenes": 20
+        }
+      },
+      "random": {
+        "hit_rate": {
+          "ci_95": [
+            -0.31875,
+            0.06875
+          ],
+          "mean_difference": -0.125,
+          "scenes": 20
+        },
+        "mean_loss": {
+          "ci_95": [
+            -0.05875000000000001,
+            0.20625
+          ],
+          "mean_difference": 0.07500000000000002,
+          "scenes": 20
+        },
+        "mean_utility": {
+          "ci_95": [
+            -1.1575000000000002,
+            0.2500624999999991
+          ],
+          "mean_difference": -0.45,
+          "scenes": 20
+        }
+      },
+      "rational": {
+        "hit_rate": {
+          "ci_95": [
+            -0.09375,
+            0.11875
+          ],
+          "mean_difference": 0.0125,
+          "scenes": 20
+        },
+        "mean_loss": {
+          "ci_95": [
+            -0.0675,
+            0.08625000000000001
+          ],
+          "mean_difference": 0.009999999999999993,
+          "scenes": 20
+        },
+        "mean_utility": {
+          "ci_95": [
+            -0.36,
+            0.42000000000000004
+          ],
+          "mean_difference": 0.02749999999999999,
+          "scenes": 20
+        }
+      }
+    }
+  },
+  "per_model_strategy": {
+    "Deepseek-Flash|QR": {
+      "completed": 160,
+      "hit_rate": 0.35625,
+      "mean_loss": 0.38375,
+      "mean_utility": 0.6849999999999999,
+      "valid": 160
+    },
+    "Deepseek-Flash|RAG_QR": {
+      "completed": 160,
+      "hit_rate": 0.24375,
+      "mean_loss": 0.4287500000000001,
+      "mean_utility": 0.30249999999999994,
+      "valid": 160
+    },
+    "Deepseek-Flash|SUQR": {
+      "completed": 160,
+      "hit_rate": 0.175,
+      "mean_loss": 0.485,
+      "mean_utility": 0.03999999999999999,
+      "valid": 160
+    },
+    "Deepseek-Flash|all_high": {
+      "completed": 160,
+      "hit_rate": 0.375,
+      "mean_loss": 0.4175,
+      "mean_utility": 0.7074999999999998,
+      "valid": 160
+    },
+    "Deepseek-Flash|fixed_rho": {
+      "completed": 160,
+      "hit_rate": 0.425,
+      "mean_loss": 0.32999999999999996,
+      "mean_utility": 0.945,
+      "valid": 160
+    },
+    "Deepseek-Flash|max_cue": {
+      "completed": 160,
+      "hit_rate": 0.2669642857142857,
+      "mean_loss": 0.4866071428571428,
+      "mean_utility": 0.3142857142857143,
+      "valid": 159
+    },
+    "Deepseek-Flash|random": {
+      "completed": 160,
+      "hit_rate": 0.2375,
+      "mean_loss": 0.45500000000000007,
+      "mean_utility": 0.25749999999999995,
+      "valid": 160
+    },
+    "Deepseek-Flash|rational": {
+      "completed": 160,
+      "hit_rate": 0.4375,
+      "mean_loss": 0.32499999999999996,
+      "mean_utility": 0.9874999999999998,
+      "valid": 160
+    },
+    "Deepseek-R1-32b|QR": {
+      "completed": 160,
+      "hit_rate": 0.6767857142857142,
+      "mean_loss": 0.1975,
+      "mean_utility": 1.832857142857143,
+      "valid": 158
+    },
+    "Deepseek-R1-32b|RAG_QR": {
+      "completed": 160,
+      "hit_rate": 0.5526785714285715,
+      "mean_loss": 0.25875000000000004,
+      "mean_utility": 1.3992857142857145,
+      "valid": 159
+    },
+    "Deepseek-R1-32b|SUQR": {
+      "completed": 160,
+      "hit_rate": 0.56875,
+      "mean_loss": 0.26875,
+      "mean_utility": 1.4375,
+      "valid": 160
+    },
+    "Deepseek-R1-32b|all_high": {
+      "completed": 160,
+      "hit_rate": 0.10625,
+      "mean_loss": 0.53125,
+      "mean_utility": -0.2125,
+      "valid": 160
+    },
+    "Deepseek-R1-32b|fixed_rho": {
+      "completed": 160,
+      "hit_rate": 0.6017857142857144,
+      "mean_loss": 0.2532142857142857,
+      "mean_utility": 1.5521428571428573,
+      "valid": 158
+    },
+    "Deepseek-R1-32b|max_cue": {
+      "completed": 160,
+      "hit_rate": 0.4580357142857143,
+      "mean_loss": 0.33625,
+      "mean_utility": 1.0378571428571428,
+      "valid": 159
+    },
+    "Deepseek-R1-32b|random": {
+      "completed": 160,
+      "hit_rate": 0.59375,
+      "mean_loss": 0.26125000000000004,
+      "mean_utility": 1.52,
+      "valid": 160
+    },
+    "Deepseek-R1-32b|rational": {
+      "completed": 160,
+      "hit_rate": 0.5857142857142857,
+      "mean_loss": 0.22285714285714292,
+      "mean_utility": 1.5342857142857145,
+      "valid": 159
+    },
+    "GLM-5|QR": {
+      "completed": 160,
+      "hit_rate": 0.44375,
+      "mean_loss": 0.3637500000000001,
+      "mean_utility": 0.9675,
+      "valid": 160
+    },
+    "GLM-5|RAG_QR": {
+      "completed": 160,
+      "hit_rate": 0.41875,
+      "mean_loss": 0.35625,
+      "mean_utility": 0.8999999999999998,
+      "valid": 160
+    },
+    "GLM-5|SUQR": {
+      "completed": 160,
+      "hit_rate": 0.4625,
+      "mean_loss": 0.325,
+      "mean_utility": 1.0625,
+      "valid": 160
+    },
+    "GLM-5|all_high": {
+      "completed": 160,
+      "hit_rate": 0.2625,
+      "mean_loss": 0.45249999999999996,
+      "mean_utility": 0.3350000000000001,
+      "valid": 160
+    },
+    "GLM-5|fixed_rho": {
+      "completed": 160,
+      "hit_rate": 0.41875,
+      "mean_loss": 0.35625000000000007,
+      "mean_utility": 0.8999999999999998,
+      "valid": 160
+    },
+    "GLM-5|max_cue": {
+      "completed": 160,
+      "hit_rate": 0.2875,
+      "mean_loss": 0.46499999999999997,
+      "mean_utility": 0.3975,
+      "valid": 160
+    },
+    "GLM-5|random": {
+      "completed": 160,
+      "hit_rate": 0.3375,
+      "mean_loss": 0.4,
+      "mean_utility": 0.6124999999999999,
+      "valid": 160
+    },
+    "GLM-5|rational": {
+      "completed": 160,
+      "hit_rate": 0.475,
+      "mean_loss": 0.3350000000000001,
+      "mean_utility": 1.09,
+      "valid": 160
+    }
+  },
+  "planned_tasks": 3840,
+  "valid_tasks": 3832
+}

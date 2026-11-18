@@ -1,0 +1,139 @@
+{
+  "protocol_version": "pilot-v2.4",
+  "source": "_build\\v25_parallel\\pilot_v25",
+  "config_sha256": "5e6ce9dae9cee09da3881a11009f718eed91e5e027a3fff8c55b288f7ac447af",
+  "raw_sha256": "23756ed7ca524b2ffe16d5d1dba034fd62f301293ab758dae033715feb4efae3",
+  "planned_tasks": 960,
+  "completed_tasks": 960,
+  "duplicate_task_ids": 0,
+  "wrong_config_hash": 0,
+  "complete": true,
+  "formal_ready": false,
+  "versions_are_not_pooled": true,
+  "per_model": {
+    "Deepseek-Flash": {
+      "planned": 192,
+      "completed": 192,
+      "valid": 192,
+      "pending": 0,
+      "end_to_end_rate_all_planned": 1.0,
+      "valid_given_completed": 1.0,
+      "complete_text": 192,
+      "complete_given_http200": 1.0,
+      "valid_given_complete": 1.0,
+      "finish_reasons": {
+        "stop": 192
+      },
+      "errors": {},
+      "reported_response_model_ids": {
+        "deepseek-v4.1-flash-1017": 192
+      },
+      "descriptive_only": {
+        "valid_choice_count": 192,
+        "marked_target_pairs": 665,
+        "chosen_marked_count": 20
+      }
+    },
+    "Deepseek-R1-32b": {
+      "planned": 192,
+      "completed": 192,
+      "valid": 188,
+      "pending": 0,
+      "end_to_end_rate_all_planned": 0.9791666666666666,
+      "valid_given_completed": 0.9791666666666666,
+      "complete_text": 192,
+      "complete_given_http200": 1.0,
+      "valid_given_complete": 0.9791666666666666,
+      "finish_reasons": {
+        "stop": 192
+      },
+      "errors": {
+        "invalid_reasoning": 4
+      },
+      "reported_response_model_ids": {
+        "deepseek-r1:32b-qwen-distill-q8_0": 192
+      },
+      "descriptive_only": {
+        "valid_choice_count": 188,
+        "marked_target_pairs": 520,
+        "chosen_marked_count": 130
+      }
+    },
+    "GLM-5": {
+      "planned": 192,
+      "completed": 192,
+      "valid": 192,
+      "pending": 0,
+      "end_to_end_rate_all_planned": 1.0,
+      "valid_given_completed": 1.0,
+      "complete_text": 192,
+      "complete_given_http200": 1.0,
+      "valid_given_complete": 1.0,
+      "finish_reasons": {
+        "stop": 192
+      },
+      "errors": {},
+      "reported_response_model_ids": {
+        "glm-5": 192
+      },
+      "descriptive_only": {
+        "valid_choice_count": 192,
+        "marked_target_pairs": 480,
+        "chosen_marked_count": 3
+      }
+    },
+    "GLM-5.3": {
+      "planned": 192,
+      "completed": 192,
+      "valid": 174,
+      "pending": 0,
+      "end_to_end_rate_all_planned": 0.90625,
+      "valid_given_completed": 0.90625,
+      "complete_text": 176,
+      "complete_given_http200": 0.9166666666666666,
+      "valid_given_complete": 0.9886363636363636,
+      "finish_reasons": {
+        "stop": 176,
+        "length": 16
+      },
+      "errors": {
+        "incomplete_or_filtered_response": 16,
+        "Expecting value: line 1 column 1 (char 0)": 2
+      },
+      "reported_response_model_ids": {
+        "glm-5.3": 192
+      },
+      "descriptive_only": {
+        "valid_choice_count": 174,
+        "marked_target_pairs": 620,
+        "chosen_marked_count": 7
+      }
+    },
+    "Kimi-K2.6": {
+      "planned": 192,
+      "completed": 192,
+      "valid": 152,
+      "pending": 0,
+      "end_to_end_rate_all_planned": 0.7916666666666666,
+      "valid_given_completed": 0.7916666666666666,
+      "complete_text": 192,
+      "complete_given_http200": 1.0,
+      "valid_given_complete": 0.7916666666666666,
+      "finish_reasons": {
+        "stop": 192
+      },
+      "errors": {
+        "invalid_reasoning": 40
+      },
+      "reported_response_model_ids": {
+        "kimi-k2.6": 192
+      },
+      "descriptive_only": {
+        "valid_choice_count": 152,
+        "marked_target_pairs": 531,
+        "chosen_marked_count": 1
+      }
+    }
+  },
+  "scope": "Technical protocol audit only; no human labels, rho estimates, or formal behavioral claims"
+}

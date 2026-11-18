@@ -1,0 +1,79 @@
+{
+  "api_calls_performed": 0,
+  "design_audit": {
+    "authorized_for_formal_collection": false,
+    "business_host_counts": {
+      "6": 192,
+      "8": 192
+    },
+    "calls_per_model_if_approved": 3072,
+    "cue_support": {
+      "admin_share": 153,
+      "backup": 154,
+      "credential": 154,
+      "hostname": 153,
+      "none": 154
+    },
+    "decoy_cell_max": 18,
+    "decoy_cell_min": 17,
+    "decoy_count_distribution": {
+      "1": 128,
+      "2": 128,
+      "3": 128
+    },
+    "decoy_instances": 768,
+    "presentations": 768,
+    "rank_by_split": {
+      "test": {
+        "choice_rank": 10,
+        "condition_number": 2.345403424404613,
+        "recognition_rank": 5
+      },
+      "train": {
+        "choice_rank": 10,
+        "condition_number": 2.3129684735543314,
+        "recognition_rank": 5
+      },
+      "validation": {
+        "choice_rank": 10,
+        "condition_number": 2.3399442906001404,
+        "recognition_rank": 5
+      }
+    },
+    "role_template_counts": {
+      "Mixed": 96,
+      "Web-DB": 96,
+      "Web-DC": 96,
+      "Web-File": 96
+    },
+    "scenes": 384,
+    "split_counts": {
+      "test": 48,
+      "train": 288,
+      "validation": 48
+    },
+    "status": "DIAGNOSTIC_OFFLINE_STRUCTURE_ONLY"
+  },
+  "duplicate_prompt_hashes": 0,
+  "formal_ready": true,
+  "models": [
+    "Deepseek-Flash",
+    "Deepseek-R1-32b",
+    "GLM-5"
+  ],
+  "planned_tasks": 9216,
+  "presentations": 768,
+  "protocol_version": "formal-v2.1",
+  "scenes": 384,
+  "scope": "Frozen formal protocol; offline audit only until explicit API run",
+  "sha256": {
+    "dataset_v2.jsonl": "bf81843cde3f61e52e9007cddd7b8aeaebc635c4aedc800350877cf0cb2ad2e8",
+    "design_audit_v2.json": "1426581e7461fc91b1da65561fcce28b748c28105577b97a210a0b58c1459575",
+    "estimation_snapshot.py": "117ed2f2fc0d7646632ff21cf061973159450529641274f3c6f77898922c3d0c",
+    "features_from_text.jsonl": "6f4e1875ed3dc2bba5f072911d5b0ddf1ab54ceb88d9de92cef3b1c075198678",
+    "frozen_config.json": "0e0a0bf97b18ed523a8e7fde7815f507c8f610ecb4a36977f2a90ea92ca1e2a0",
+    "presentations.jsonl": "07899abe0adb865d3ef396829fd1fdb4aea699ca8a2550ac0214412c3669186f",
+    "runner_snapshot.py": "3268dddec31c26ef6a52b46de4f701ea73cd3d7382e04f865a29fba92d16b3ec",
+    "transport_snapshot.py": "28e7d4b022b58483048ab699f60bf9229184efed408c2657bce60eac962cbef2"
+  }
+}

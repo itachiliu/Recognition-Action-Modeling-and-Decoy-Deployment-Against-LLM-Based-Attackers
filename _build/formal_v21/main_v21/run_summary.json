@@ -1,0 +1,29 @@
+{
+  "completed_tasks": 9216,
+  "duplicate_task_ids": 0,
+  "per_model": {
+    "Deepseek-Flash": {
+      "complete_given_http200": 0.9990234375,
+      "complete_text": 3069,
+      "completed": 3072,
+      "valid": 3069,
+      "valid_given_complete": 1.0
+    },
+    "Deepseek-R1-32b": {
+      "complete_given_http200": 0.9934895833333334,
+      "complete_text": 3052,
+      "completed": 3072,
+      "valid": 3047,
+      "valid_given_complete": 0.9983617300131061
+    },
+    "GLM-5": {
+      "complete_given_http200": 0.9990234375,
+      "complete_text": 3069,
+      "completed": 3072,
+      "valid": 3069,
+      "valid_given_complete": 1.0
+    }
+  },
+  "planned_per_model": 3072,
+  "protocol_version": "formal-v2.1"
+}

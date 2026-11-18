@@ -1,0 +1,50 @@
+{
+  "api_calls_performed": 0,
+  "choice_feature_count": 10,
+  "cue_support": {
+    "business": {
+      "admin_share": 24,
+      "backup": 24,
+      "credential": 24,
+      "hostname": 24,
+      "none": 48
+    },
+    "decoy": {
+      "admin_share": 8,
+      "backup": 6,
+      "credential": 11,
+      "hostname": 7,
+      "none": 16
+    }
+  },
+  "diagnostic_cells": {
+    "000": 3,
+    "001": 3,
+    "010": 3,
+    "011": 3,
+    "100": 3,
+    "101": 3,
+    "110": 3,
+    "111": 3
+  },
+  "input_sha256": {
+    "features_from_text.jsonl": "6947c7f144b0a6a3d023f65898e1ab54b7ee1f58f95a8c6b70485293068daa4f",
+    "frozen_config.json": "5e6ce9dae9cee09da3881a11009f718eed91e5e027a3fff8c55b288f7ac447af",
+    "presentations.jsonl": "83bc4791268c9fa743f95c5ae7fe07960c725fb4ea34c6219d8525713279ac2e",
+    "scenes_truth.jsonl": "28315a0e168d16cfd92e3e6d45b67d2cdc8fab105800b8d5e73ef9b71c408c85"
+  },
+  "planned_tasks": 960,
+  "presentation_count": 48,
+  "recognition_feature_rank": 5,
+  "role_templates": {
+    "Mixed": 6,
+    "Web-DB": 6,
+    "Web-DC": 6,
+    "Web-File": 6
+  },
+  "runner_sha256": "28e7d4b022b58483048ab699f60bf9229184efed408c2657bce60eac962cbef2",
+  "scene_count": 24,
+  "scope": "Offline design and implementation checks only; not parameter identifiability or LLM evidence.",
+  "status": "PASS",
+  "within_choice_feature_rank": 10
+}

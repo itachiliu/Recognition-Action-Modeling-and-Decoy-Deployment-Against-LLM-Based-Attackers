@@ -1,0 +1,54 @@
+{
+  "status": "DIAGNOSTIC_OFFLINE_STRUCTURE_ONLY",
+  "authorized_for_formal_collection": false,
+  "scenes": 384,
+  "presentations": 768,
+  "split_counts": {
+    "train": 288,
+    "test": 48,
+    "validation": 48
+  },
+  "business_host_counts": {
+    "6": 192,
+    "8": 192
+  },
+  "decoy_count_distribution": {
+    "1": 128,
+    "2": 128,
+    "3": 128
+  },
+  "role_template_counts": {
+    "Web-DB": 96,
+    "Web-File": 96,
+    "Web-DC": 96,
+    "Mixed": 96
+  },
+  "decoy_instances": 768,
+  "decoy_cell_min": 17,
+  "decoy_cell_max": 18,
+  "cue_support": {
+    "none": 154,
+    "admin_share": 153,
+    "hostname": 153,
+    "backup": 154,
+    "credential": 154
+  },
+  "rank_by_split": {
+    "train": {
+      "choice_rank": 10,
+      "recognition_rank": 5,
+      "condition_number": 2.3129684735543314
+    },
+    "validation": {
+      "choice_rank": 10,
+      "recognition_rank": 5,
+      "condition_number": 2.3399442906001404
+    },
+    "test": {
+      "choice_rank": 10,
+      "recognition_rank": 5,
+      "condition_number": 2.345403424404613
+    }
+  },
+  "calls_per_model_if_approved": 3072
+}

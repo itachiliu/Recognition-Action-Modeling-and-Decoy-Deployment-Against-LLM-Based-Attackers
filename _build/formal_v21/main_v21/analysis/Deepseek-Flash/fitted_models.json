@@ -1,0 +1,126 @@
+{
+  "rational": {
+    "model": "rational"
+  },
+  "QR": {
+    "model": "QR",
+    "lambda": 1
+  },
+  "SUQR": {
+    "model": "SUQR",
+    "alpha": [
+      -0.48576864197768915,
+      0.3476811682415814,
+      0.36280011261103634,
+      0.40973807008822677,
+      0.0627468753614048
+    ],
+    "gamma": [
+      2.1562930963834654,
+      1.5035365908448806,
+      -0.20194520836901483,
+      0.16395556904351458,
+      0.42166387651849147,
+      -0.005558530437960624,
+      -0.5035105591245539,
+      -0.595187968059962,
+      -0.5830256458053028,
+      -0.025114626838305
+    ],
+    "beta": 0.0,
+    "rho": 1.0,
+    "choice_ridge": 0.01,
+    "recognition_ridge": 0.0001,
+    "choice_fit": {
+      "converged": true,
+      "iterations": 4,
+      "loss": 1.6932565460090916
+    },
+    "recognition_fit": {
+      "converged": true,
+      "iterations": 3,
+      "loss": 0.6724751036774687
+    },
+    "beta_at_upper_bound": true,
+    "beta_at_lower_bound": false,
+    "validation_selection": "recognition Bernoulli NLL; choice independent marginal NLL"
+  },
+  "fixed_rho": {
+    "model": "fixed_rho",
+    "alpha": [
+      -0.48576864197768915,
+      0.3476811682415814,
+      0.36280011261103634,
+      0.40973807008822677,
+      0.0627468753614048
+    ],
+    "gamma": [
+      2.439046022090914,
+      1.817025326204635,
+      1.8577751540846337,
+      1.564155639051349,
+      0.47812138835445467,
+      0.23959635140305047,
+      -0.39083105225226866,
+      -0.37987420510954845,
+      -0.4188991158903883,
+      -0.003478598708985687
+    ],
+    "beta": -4.605170185988091,
+    "rho": 0.010000000000000004,
+    "choice_ridge": 0.01,
+    "recognition_ridge": 0.0001,
+    "choice_fit": {
+      "converged": true,
+      "iterations": 4,
+      "loss": 1.806289107979596
+    },
+    "recognition_fit": {
+      "converged": true,
+      "iterations": 3,
+      "loss": 0.6724751036774687
+    },
+    "beta_at_upper_bound": false,
+    "beta_at_lower_bound": false,
+    "validation_selection": "recognition Bernoulli NLL; choice independent marginal NLL"
+  },
+  "RAG_QR": {
+    "model": "RAG_QR",
+    "alpha": [
+      -0.48576864197768915,
+      0.3476811682415814,
+      0.36280011261103634,
+      0.40973807008822677,
+      0.0627468753614048
+    ],
+    "gamma": [
+      2.154370641925907,
+      1.5669926512244194,
+      0.7822858652602172,
+      0.893311446651554,
+      0.4793152954141865,
+      0.19282284889949908,
+      -0.4159562610260603,
+      -0.44481574766059584,
+      -0.4555120617807243,
+      -0.011550919615911422
+    ],
+    "beta": -1.6911409893267972,
+    "rho": 0.1843091092488437,
+    "choice_ridge": 0.01,
+    "recognition_ridge": 0.0001,
+    "choice_fit": {
+      "converged": true,
+      "iterations": 4,
+      "loss": 1.5472545237762145
+    },
+    "recognition_fit": {
+      "converged": true,
+      "iterations": 3,
+      "loss": 0.6724751036774687
+    },
+    "beta_at_upper_bound": false,
+    "beta_at_lower_bound": false,
+    "validation_selection": "recognition Bernoulli NLL; choice independent marginal NLL"
+  }
+}
