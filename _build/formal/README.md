@@ -1,13 +1,13 @@
 # 正式实验离线准备
 
-2026-11-16更新：120场景bootstrap精度闸门未通过；384场景v2.1候选在两轮独立剖面似然精度检查中8/8通过。正式冻结入口已迁至 `_build/formal_v21/runner.py`，默认仅做离线审计；当前尚无正式API响应。完整判定见 `reviews/2026-11-16-formal-gate-report.md`。
+2026-11-16更新：120场景自助重采样（bootstrap）精度闸门未通过；384场景v2.1候选在两轮独立剖面似然精度检查中8/8通过。正式冻结入口已迁至 `_build/formal_v21/runner.py`，默认仅做离线审计；当前尚无正式应用程序接口（Application Programming Interface，API）响应。完整判定见 `reviews/2026-11-16-formal-gate-report.md`。
 
-本目录不包含API采集入口，不读取密钥。当前保留论文的两阶段RAG-QR、ρ≤1约束、SUQR嵌套关系、预算优化与独立闭环主线。目录中的模拟输出均不是LLM实验结果。
+本目录不包含API采集入口，不读取密钥。当前保留论文的两阶段识别—行动关联量子响应模型（Recognition-Action Gap-aware Quantal Response，RAG-QR）、ρ≤1约束、主观效用量子响应模型（Subjective Utility Quantal Response，SUQR）嵌套关系、预算优化与独立闭环主线。目录中的模拟输出均不是大语言模型（Large Language Model，LLM）实验结果。
 
 ## 已实现
 
 - `design.py`：120个候选正式场景、72/24/24划分、240个诱饵实例、240个固定呈现。45种诱饵组合各出现5--6次；按N×诱饵数×角色模板分层划分，各划分特征秩与可见特征重建通过。
-- `estimation.py`：观测r的条件选择似然、只用z的识别logistic、训练集拟合和验证集正则选择、ρ约束、不惩罚β、五种响应模型、对r精确枚举的独立边缘预测、NLL/Top1/Brier/10箱ECE、配对场景bootstrap及Holm校正。
+- `estimation.py`：观测r的条件选择似然、只用z的逻辑斯蒂（logistic）识别回归、训练集拟合和验证集正则选择、ρ约束、不惩罚β、五种响应模型、对r精确枚举的独立边缘预测、负对数似然（Negative Log-Likelihood，NLL）/第一选择准确率（Top-1 Accuracy）/布里尔分数（Brier Score）/10箱期望校准误差（Expected Calibration Error，ECE）、配对场景自助重采样（bootstrap）及Holm校正。
 - 场景bootstrap在训练和验证划分内分别抽取整个场景。该场景的全部有效重复共享权重；每次重拟合两个阶段并重选正则强度。缺失响应不补造。没有识别标签变化或增广选择矩阵不满秩时，阻止输出虚假的ρ点估计。
 - `precision.py`：8种生成条件，每种200组独立数据、每组2000次场景bootstrap的可续跑精度研究入口。默认只运行小规模流程检查，明确禁止将其标为正式精度通过。
 - `analysis_smoke.py`：在有明确已知参数的合成数据上，运行五基线、独立测试预测和少量场景bootstrap，验证流程衔接。
@@ -37,7 +37,7 @@ python _build/formal/precision.py --run-full --out _build/formal/precision_full
 
 1. 同一冻结协议的960任务五模型预实验和独立人工拒答/测量预检。
 2. 完整正式设计精度研究与必要的设计修改。少量流程检查已出现弱识别条件下的宽区间和边界覆盖问题，尚不足以确认规模足够或不足。
-3. 实际LLM正式拟合、识别AUC与聚类稳健标准误、剖面/分离检查、β计算下界敏感性；需要p值时另做零假设参数bootstrap。
+3. 实际LLM正式拟合、识别受试者工作特征曲线下面积（Area Under the Receiver Operating Characteristic Curve，AUC）与聚类稳健标准误、剖面/分离检查、β计算下界敏感性；需要p值时另做零假设参数bootstrap。
 4. 正式训练/验证响应的240条双人盲标；空白标签不等于0，不能由模型冒充两名人工标注者。
 5. 部署优化、穷举对照、独立LLM闭环、迁移与稳健性评估尚未实现及执行。
 

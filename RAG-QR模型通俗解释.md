@@ -1,4 +1,4 @@
-# RAG-QR 模型通俗解释
+# 识别—行动关联量子响应模型（Recognition-Action Gap-aware Quantal Response，RAG-QR）通俗解释
 
 ## 它要解决什么问题
 
@@ -42,7 +42,7 @@ RAG-QR 就是把这两个问题分开建模的模型。
 
 所以 ρ 衡量的是“识别结果到底有没有影响行动”。
 
-## 和 SUQR 的区别
+## 和主观效用量子响应模型（Subjective Utility Quantal Response，SUQR）的区别
 
 SUQR 只用一套效用分数来解释选择，它不区分：
 
@@ -55,7 +55,7 @@ RAG-QR 把这两个原因拆开，让识别概率和识别后惩罚系数分别�
 
 ## 模型怎么训练
 
-LLM 的输出包含两个信息：
+大语言模型（Large Language Model，LLM）的输出包含两个信息：
 
 - 它怀疑哪些目标是陷阱；
 - 它最终选择哪个目标。
